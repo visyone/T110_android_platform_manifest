@@ -8,7 +8,7 @@
 - JDK 6
 - [Android Build Dependencies](https://source.android.com/setup/build/initializing#setting-up-a-linux-build-environment)
 
-## How To Set Up Minimal CM11 Sources
+## How To Set Up Minimal LineageOS-20 Sources
 
 ```bash
 repo init --depth=1 -u git://github.com/LineageOS/android.git -b lineage-20.0
