@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="T110-android" fetch="https://github.com/T110-android/" />
-	<remove-project name="CyanogenMod/android_hardware_libhardware" />
-	<remove-project name="CyanogenMod/android_hardware_libhardware_legacy" />
-	<remove-project name="CyanogenMod/android_hardware_broadcom_libbt" />
+	<remote name="T110-android" fetch="https://github.com/visyone/" />
+	<remove-project name="LineageOS/android_hardware_libhardware" />
+	<remove-project name="LineageOS/android_hardware_libhardware_legacy" />
+	<remove-project name="LineageOS/android_hardware_broadcom_libbt" />
 	
 	<!-- Device Trees -->
-	<project path="device/samsung/goyawifi" remote="T110-android" name="android_device_samsung_goyawifi" revision="cm-11.0" />
-	<project path="device/samsung/goya3g" remote="T110-android" name="android_device_samsung_goya3g" revision="cm-11.0" />
-  	<project path="device/samsung/goya-common" remote="T110-android" name="android_device_samsung_goya-common" revision="cm-11.0" />
+	<project path="device/samsung/goyawifi" remote="T110-android" name="android_device_samsung_goyawifi" revision="lineage-20.0" />
+	<project path="device/samsung/goya3g" remote="T110-android" name="android_device_samsung_goya3g" revision="lineage-20.0" />
+  	<project path="device/samsung/goya-common" remote="T110-android" name="android_device_samsung_goya-common" revision="lineage-20.0" />
 	
 	<!-- Kernel/Vendor -->
-	<project path="vendor/samsung/goya" remote="T110-android" name="android_vendor_samsung_goya" revision="cm-11.0" />
-	<project path="kernel/samsung/goya" remote="T110-android" name="android_kernel_samsung_goya" revision="cm-11.0" />
+	<project path="vendor/samsung/goya" remote="T110-android" name="android_vendor_samsung_goya" revision="lineage-20.0" />
+	<project path="kernel/samsung/goya" remote="T110-android" name="android_kernel_samsung_goya" revision="lineage-20.0" />
 
 	<!-- MRVL-specific -->
-	<project path="device/samsung/marvell-common" remote="T110-android" name="android_device_samsung_marvell-common" revision="cm-11.0" />
-	<project path="hardware/marvell" remote="T110-android" name="android_hardware_marvell" revision="cm-11.0" />
-	<project path="vendor/marvell/external" remote="T110-android" name="android_vendor_marvell_external" revision="cm-11.0" />
+	<project path="device/samsung/marvell-common" remote="T110-android" name="android_device_samsung_marvell-common" revision="lineage-20.0" />
+	<project path="hardware/marvell" remote="T110-android" name="android_hardware_marvell" revision="lineage-20.0" />
+	<project path="vendor/marvell/external" remote="T110-android" name="android_vendor_marvell_external" revision="lineage-20.0" />
 	<project path="hardware/libhardware" remote="T110-android" name="android_hardware_libhardware" groups="pdk" />
 	<project path="hardware/libhardware_legacy" remote="T110-android" name="android_hardware_libhardware_legacy" groups="pdk" />
 </manifest>
